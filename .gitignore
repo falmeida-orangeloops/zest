@@ -1,0 +1,11 @@
+.qmake.stash
+.kdev4/
+build
+default.png
+generated
+images
+Makefile
+music
+roms
+settings
+zest
