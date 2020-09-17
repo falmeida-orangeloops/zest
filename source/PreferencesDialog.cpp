@@ -13,6 +13,8 @@ PreferencesDialog::PreferencesDialog(QWidget *parent): QDialog(parent) {
     
     loadPreferences();
     
+    resumeMusicCheckBox->setEnabled(playMusicCheckBox->isChecked());
+    
     connect(imagesDirectoryLineEdit, SIGNAL(textChanged(QString)), this, SLOT(enableImagesDirectoryChangedBool()));
     connect(musicDirectoryLineEdit, SIGNAL(textChanged(QString)), this, SLOT(enableMusicPreferencesChangedBool()));
     connect(playMusicCheckBox, SIGNAL(toggled(bool)), this, SLOT(enableMusicPreferencesChangedBool()));
