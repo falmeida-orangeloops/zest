@@ -8,4 +8,5 @@ Makefile
 music
 roms
 settings
+ui/ui_*.h
 zest
