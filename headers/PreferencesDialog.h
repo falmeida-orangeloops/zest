@@ -3,9 +3,6 @@
 
 #include "ui_PreferencesDialog.h"
 
-class QCheckBox;
-class QLineEdit;
-
 class PreferencesDialog : public QDialog, private Ui::PreferencesDialog {
     Q_OBJECT
     
